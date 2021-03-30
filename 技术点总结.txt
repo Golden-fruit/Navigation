@@ -1,0 +1,10 @@
+组件间传值；
+构造线程：Msg:import Vue from 'vue';export default new Vue
+Msg.$emit('name','值')
+Msg.$on('name',m=>{})
+父子组件传值； 
+ 父:<Name :dataname='数值'>;子:props:{dataname:Number}
+子父传值：
+this.$emit ,this.$on
+利用prototype.$http=axios,获取解析json数据
+$http.get(url).then(res=>{……处理数据})（组件Girl中的get()）
